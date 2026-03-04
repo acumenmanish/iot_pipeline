@@ -1,0 +1,11 @@
+# Secrets
+.env
+
+# Local Docker Data (Don't sync database files)
+mosquitto/data/
+mosquitto/log/
+node_red_data/
+
+# IDE specific
+.idea/
+*.log
