@@ -1,12 +1,13 @@
-# Modern TIG Stack for InfluxDB 3
+# Multi-tenant Telegraf routing and Mosquitto config
 
 TIG Stack is an arconym for the following three open source technologoies that seamless work togther to collect, store, analyze and monitor real time data from almost anything such as servers, APIs, IoT devices or even your smart coffee machine!
 
 1. **T**elegraf to collect system metrics and write to InflxDB
-2. **I**nfluxDB 3 (Core or Enterprise version) as the timeseries database
-3. **G**rafana as the data visualization tool that frequently queries metrics from InfluxDB 3 tables.
+2. **M**osquitto to collect act as Broker
+3. **I**nfluxDB 3 (Cloud serverless) as the timeseries database
+4. **G**rafana as the data visualization tool that frequently queries metrics from InfluxDB 3 tables.
 
-![TIG Stack](https://github.com/InfluxCommunity/TIG-Stack-using-InfluxDB-3-Core/blob/main/TIG.drawio-4.png)
+
 
 ## Pre-requisite:
 
@@ -18,7 +19,7 @@ TIG Stack is an arconym for the following three open source technologoies that s
 
 ## 1. Clone the repository
 ```sh
-git clone https://github.com/InfluxCommunity/TIG-Stack-using-InfluxDB-3.git
+git clone https://github.com/acumenmanish/iot_pipelijne.git
 cd TIG-Stack-using-InfluxDB-3
 ```
 
